@@ -1,7 +1,8 @@
 class SoundscapesController < ApplicationController
 
   def index
-    render json: {foo: 'bar'}
+    @soundscapes = Soundscape.all
+    render json: SoundscapeSerializer.new(@soundscapes).serializable_hash, status: :ok
   end
 
   def create
