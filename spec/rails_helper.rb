@@ -10,6 +10,9 @@ require 'support/factory_bot'
 require 'shoulda/matchers'
 require 'support/shoulda'
 require 'support/database_cleaner'
+require 'support/vcr'
+require 'support/rails'
+
 # Requires supporting ruby files with custom matchers and macros, etc, in
 # spec/support/ and its subdirectories. Files matching `spec/**/*_spec.rb` are
 # run as spec files by default. This means that files in spec/support that end
@@ -35,7 +38,7 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 RSpec.configure do |config|
   # Remove this line if you're not using ActiveRecord or ActiveRecord fixtures
-  config.fixture_path = "#{::Rails.root}/spec/fixtures"
+  # config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
   # If you're not using ActiveRecord, or you'd prefer not to run each of your
   # examples within a transaction, remove the following line or assign false
@@ -62,12 +65,3 @@ RSpec.configure do |config|
   # arbitrary gems may also be filtered via:
   # config.filter_gems_from_backtrace("gem name")
 end
-
-Shoulda::Matchers.configure do |config|
-  config.integrate do |with|
-    with.test_framework :rspec
-    with.library :rails
-  end
-end
-
-include Rails.application.routes.url_helpers

@@ -2,6 +2,8 @@ module Api
   module Twitter
     class Base
 
+      attr_reader :client
+
       def initialize(opts={})
 
         @client = ::Twitter::REST::Client.new do |config|
