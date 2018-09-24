@@ -2,12 +2,9 @@ module Api
   module Twitter
     class Base
 
-      def initialize(opts={})
+      attr_reader :client
 
-        p ENV['TWITTER_CONSUMER_KEY']
-        p ENV['TWITTER_CONSUMER_SECRET']
-        p ENV['TWITTER_ACCESS_TOKEN']
-        p ENV['TWITTER_ACCESS_TOKEN_SECRET']
+      def initialize(opts={})
 
         @client = ::Twitter::REST::Client.new do |config|
           config.consumer_key         = ENV['TWITTER_CONSUMER_KEY']

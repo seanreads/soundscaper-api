@@ -1,1 +1,1 @@
-Places sounding like just as they are described.
+Places sound like just as they are described.
