@@ -1,1 +1,1 @@
-What if a place sounds like just as it is described?
+What if a place sounded like just as it is described?
