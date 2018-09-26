@@ -34,6 +34,7 @@ gem 'acts-as-taggable-on', '~> 6.0'
 gem 'faraday'
 gem 'fast_jsonapi'
 gem 'twitter'
+gem 'raspell'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
