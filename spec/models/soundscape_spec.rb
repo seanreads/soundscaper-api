@@ -12,9 +12,7 @@ RSpec.describe Soundscape, type: :model do
       soundscape.name = location.name
       soundscape.woeid = location.woeid
       soundscape.country = location.country
-      # TODO/SEAN: Encapsulate >>>
-      soundscape.trend_list = trends.attrs[:trends].collect{|trend| trend[:name]}.join(',')
-      # <<<
+      soundscape.trend_list = ::Api::Twitter::Formatter.join_trends(trends)
       soundscape.save
       expect(soundscape).to be_a(Soundscape)
       expect(soundscape).to be_valid
