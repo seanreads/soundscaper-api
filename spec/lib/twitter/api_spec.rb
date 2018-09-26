@@ -7,7 +7,6 @@ describe ::Api::Twitter::Base do
   end
 
   context 'Twitter trends' do
-    # let!(:soundscape) { create(:soundcape) }
     it 'finds all trend locations' do
       VCR.use_cassette('twitter_trend_locations') do
         trend_locations = @twitter.trend_locations

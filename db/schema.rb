@@ -16,6 +16,9 @@ ActiveRecord::Schema.define(version: 2018_09_25_203932) do
   enable_extension "plpgsql"
 
   create_table "soundscapes", force: :cascade do |t|
+    t.string "name", null: false
+    t.string "woeid", null: false
+    t.string "country", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
