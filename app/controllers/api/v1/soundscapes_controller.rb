@@ -8,8 +8,8 @@ module Api
         # @locations = ::Api::Base::
         # ISSUE/SEAN: Should client be initialized once in the application config intializer?
         # ISSUE/SEAN: Need to cache trend_locations to avoid exceeding Twitter limit
-        client = ::Api::Twitter::Trends.new
-        locations = client.trend_locations
+        twitter = ::Api::Twitter::Trends.new
+        locations = twitter.trend_locations
       end
 
       def create
