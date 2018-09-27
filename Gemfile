@@ -35,6 +35,8 @@ gem 'faraday'
 gem 'fast_jsonapi'
 gem 'twitter'
 gem 'raspell'
+gem 'sidekiq'
+gem 'sidekiq-scheduler'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
