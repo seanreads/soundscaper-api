@@ -8,11 +8,11 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - TwitterRubyGem/6.2.0
+      - TwitterRubyGem/7.0.0
       Authorization:
-      - OAuth oauth_consumer_key="9Pro6TQu4AIkbPe8tBSgcL4y2", oauth_nonce="3eae8d9876014b03c1c859552c8604b2",
-        oauth_signature="4unaZDhA%2Fa3IrLwlCSqQw%2BCTsAY%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1537803392", oauth_token="1042791038446985218-ysli8LkXQojyScJzAjpq6LQZtDGotJ",
+      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="005e7b737dff4c8b3638eef06aa0ca03",
+        oauth_signature="RdmtP7hs6EcQ5AXi%2BM6RkSc2oi0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1605659758", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
         oauth_version="1.0"
       Connection:
       - close
@@ -34,29 +34,29 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Mon, 24 Sep 2018 15:36:32 GMT
+      - Wed, 18 Nov 2020 00:35:59 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Mon, 24 Sep 2018 15:36:32 GMT
+      - Wed, 18 Nov 2020 00:35:59 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A153780339213885997; Expires=Wed, 23 Sep 2020 15:36:32 GMT; Path=/;
-        Domain=.twitter.com
+      - guest_id=v1%3A160565975901416476; Max-Age=63072000; Expires=Fri, 18 Nov 2022
+        00:35:59 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=en; Path=/
-      - personalization_id="v1_MqPWse5Dt4SVmMTIACBmgQ=="; Expires=Wed, 23 Sep 2020
-        15:36:32 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_NBY5EOsIAqMzd0RQV5wcoQ=="; Max-Age=63072000; Expires=Fri,
+        18 Nov 2022 00:35:59 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
       - max-age=631138519
       X-Access-Level:
-      - read-write
+      - read
       X-Connection-Hash:
-      - d7bc21b963b6436d7d5aa139be1303f1
+      - f11a505a816645e81940d9e69cc243a2
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -64,17 +64,17 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '75'
       X-Rate-Limit-Remaining:
-      - '71'
+      - '70'
       X-Rate-Limit-Reset:
-      - '1537804242'
+      - '1605660643'
       X-Response-Time:
-      - '24'
+      - '19'
       X-Transaction:
-      - 00a022c8004ec91d
+      - '00077855008966fb'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
+      - '0'
     body:
       encoding: UTF-8
       string: '[{"name":"Worldwide","placeType":{"code":19,"name":"Supername"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/1","parentid":0,"country":"","woeid":1,"countryCode":null},{"name":"Winnipeg","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/2972","parentid":23424775,"country":"Canada","woeid":2972,"countryCode":"CA"},{"name":"Ottawa","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/3369","parentid":23424775,"country":"Canada","woeid":3369,"countryCode":"CA"},{"name":"Quebec","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/3444","parentid":23424775,"country":"Canada","woeid":3444,"countryCode":"CA"},{"name":"Montreal","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/3534","parentid":23424775,"country":"Canada","woeid":3534,"countryCode":"CA"},{"name":"Toronto","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/4118","parentid":23424775,"country":"Canada","woeid":4118,"countryCode":"CA"},{"name":"Edmonton","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/8676","parentid":23424775,"country":"Canada","woeid":8676,"countryCode":"CA"},{"name":"Calgary","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/8775","parentid":23424775,"country":"Canada","woeid":8775,"countryCode":"CA"},{"name":"Vancouver","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/9807","parentid":23424775,"country":"Canada","woeid":9807,"countryCode":"CA"},{"name":"Birmingham","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/12723","parentid":23424975,"country":"United
@@ -230,6 +230,5 @@ http_interactions:
         States","woeid":23424977,"countryCode":"US"},{"name":"Venezuela","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424982","parentid":1,"country":"Venezuela","woeid":23424982,"countryCode":"VE"},{"name":"Vietnam","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424984","parentid":1,"country":"Vietnam","woeid":23424984,"countryCode":"VN"},{"name":"Petaling","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013632","parentid":23424901,"country":"Malaysia","woeid":56013632,"countryCode":"MY"},{"name":"Hulu
         Langat","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013645","parentid":23424901,"country":"Malaysia","woeid":56013645,"countryCode":"MY"},{"name":"Ahsa","placeType":{"code":9,"name":"Unknown"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56120136","parentid":23424938,"country":"Saudi
         Arabia","woeid":56120136,"countryCode":"SA"},{"name":"Okayama","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/90036018","parentid":23424856,"country":"Japan","woeid":90036018,"countryCode":"JP"}]'
-    http_version: 
-  recorded_at: Mon, 24 Sep 2018 15:36:32 GMT
-recorded_with: VCR 4.0.0
+  recorded_at: Wed, 18 Nov 2020 00:35:59 GMT
+recorded_with: VCR 6.0.0

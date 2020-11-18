@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v0.15.3
+      - Faraday v1.1.0
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -19,38 +19,37 @@ http_interactions:
       message: OK
     headers:
       Server:
-      - nginx/1.10.3
+      - nginx/1.14.2
       Date:
-      - Mon, 24 Sep 2018 19:43:37 GMT
+      - Wed, 18 Nov 2020 00:35:58 GMT
       Content-Type:
       - application/json
       Content-Length:
-      - '3367'
+      - '3366'
       Vary:
       - Accept, Cookie
       Allow:
       - GET, HEAD, OPTIONS
       X-Freesound-Host:
-      - fs-appserver1
+      - fs-appserver3
       X-Mapped-Host:
       - freesound.org
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
       encoding: UTF-8
-      string: '{"count":3005,"next":"http://freesound.org/apiv2/search/text/?&query=dog&page=2","results":[{"id":392617,"name":"Dog
-        Toy","tags":["squeal","childs-toy","animal","cat","Dog","whine","dog","toy","play","funny"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"ScreamStudio"},{"id":327666,"name":"Dog
-        Bark.wav","tags":["bellow","barking","intimidating","angrily","bark","aggressive","barked","growl","OWI","thunder","breaking","yap","woof","shout","snap","dogs","big","Dog","bawl","snarl","fierce","aggressively","yelp","roar","cry","dog","bay","yell"],"license":"http://creativecommons.org/licenses/by-nc/3.0/","username":"Juan_Merie_Venter"},{"id":337101,"name":"Group_of_Dogs_Barking.WAV","tags":["growling","growl","Group","barking","animal","pet","angry","Dog","dog","bark","anger","Bark","Dogs","pets"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"ivolipa"},{"id":413758,"name":"dogbarking.mp3","tags":["barking","Dog","dog","bark","big"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"lala_davis554"},{"id":276267,"name":"Mr
+      string: '{"count":4079,"next":"http://freesound.org/apiv2/search/text/?&query=dog&page=2","results":[{"id":392617,"name":"Dog
+        Toy","tags":["funny","play","toy","dog","whine","Dog","cat","animal","childs-toy","squeal"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"ScreamStudio"},{"id":327666,"name":"Dog
+        Bark.wav","tags":["bellow","barking","intimidating","angrily","bark","aggressive","barked","growl","OWI","thunder","breaking","yap","woof","shout","snap","dogs","big","Dog","bawl","snarl","fierce","aggressively","yelp","roar","cry","dog","bay","yell"],"license":"http://creativecommons.org/licenses/by-nc/3.0/","username":"Juan_Merie_Venter"},{"id":518166,"name":"Dog
+        walks on wooden floor","tags":["walking","floor","wooden","Dog","dog","steps"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Elenalostale"},{"id":337101,"name":"Group_of_Dogs_Barking.WAV","tags":["growling","growl","Group","barking","animal","pet","angry","Dog","dog","bark","anger","Bark","Dogs","pets"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"ivolipa"},{"id":518570,"name":"Barking
+        Dogs.wav","tags":["Ferrell-dogs","guarding-dog","doggie-daycare","Hunde","dog-bark","Dog","Hund","dogs","guard-dog","growling","growl","puppy","barking","animal","barking-dogs","dog","angry","pet","pets","bark","howl","Astbury"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Astounded"},{"id":413758,"name":"dogbarking.mp3","tags":["big","bark","dog","Dog","barking"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"lala_davis554"},{"id":276267,"name":"Mr
         Dog_01.wav","tags":["growling","Growl","barking","Big","angry","Dog","dog","wolf","Animal","bark","Creature"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"apolloaiello"},{"id":406085,"name":"Dog
-        Barking, Single, A.wav","tags":["barking","bark","Bark","Dog","dog","growling","Barking","Growling"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"InspectorJ"},{"id":163459,"name":"LBS_FX
-        DOG Small Alert Bark001.wav","tags":["Chihuahua","FX","Dog","dog","Small","bark"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"LittleBigSounds"},{"id":421810,"name":"dogs_1.WAV","tags":["animal","woof","dog","barking","outdoor","growling"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"lupalenzuela"},{"id":188879,"name":"Dog
-        Chewing Snack.wav","tags":["chew","biscuit","noise","dog"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Suprasummun"},{"id":321179,"name":"Small
-        growling dog","tags":["moan","growl","groan","dog","beast","miniature","animal","small","grunt","guttural"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Jickle"},{"id":321178,"name":"Dog
-        squeak toy","tags":["toy","squeaker","dog","ball","squeak","squeeze"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Jickle"},{"id":180977,"name":"Barking
-        Dog","tags":["bark","happy","loud","dog","barking"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Suprasummun"},{"id":398727,"name":"dog
-        - scratch at door - front 03.wav","tags":["scratching","animal","window","dog","sidelight","sidelite","scratch","door","scratched"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Anthousai"},{"id":398728,"name":"dog
-        - scratch at door - front 02.wav","tags":["scratching","animal","window","dog","sidelight","sidelite","scratch","door","scratched"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Anthousai"},{"id":398729,"name":"dog
-        - scratch at door - front 01.wav","tags":["scratching","animal","window","dog","sidelight","sidelite","scratch","door","scratched"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Anthousai"}],"previous":null}'
-    http_version: 
-  recorded_at: Mon, 24 Sep 2018 19:43:37 GMT
-recorded_with: VCR 4.0.0
+        Barking, Single, A.wav","tags":["Growling","Barking","growling","dog","Dog","Bark","bark","barking"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"InspectorJ"},{"id":163459,"name":"LBS_FX
+        DOG Small Alert Bark001.wav","tags":["Chihuahua","FX","Dog","dog","Small","bark"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"LittleBigSounds"},{"id":456943,"name":"Blossom
+        Bark  29sec mix.wav","tags":["German-shepherd","barking","Dog","dog","bark","howl"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Zajjman"},{"id":421810,"name":"dogs_1.WAV","tags":["growling","outdoor","barking","dog","woof","animal"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"lupalenzuela"},{"id":188879,"name":"Dog
+        Chewing Snack.wav","tags":["chew","biscuit","noise","dog"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Suprasummun"},{"id":321178,"name":"Dog
+        squeak toy","tags":["toy","squeaker","dog","ball","squeak","squeeze"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Jickle"},{"id":321179,"name":"Small
+        growling dog","tags":["moan","growl","groan","dog","beast","miniature","animal","small","grunt","guttural"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Jickle"},{"id":180977,"name":"Barking
+        Dog","tags":["bark","happy","loud","dog","barking"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Suprasummun"}],"previous":null}'
+  recorded_at: Wed, 18 Nov 2020 00:35:58 GMT
+recorded_with: VCR 6.0.0

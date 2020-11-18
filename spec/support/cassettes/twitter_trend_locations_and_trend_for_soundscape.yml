@@ -8,11 +8,11 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - TwitterRubyGem/6.2.0
+      - TwitterRubyGem/7.0.0
       Authorization:
-      - OAuth oauth_consumer_key="9Pro6TQu4AIkbPe8tBSgcL4y2", oauth_nonce="cb1e793c8c04d1594439dcda68f09506",
-        oauth_signature="8xjmYSPLtS%2BwC7ZJcH9MSyLkrLs%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1537992810", oauth_token="1042791038446985218-ysli8LkXQojyScJzAjpq6LQZtDGotJ",
+      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="307d1ad3a0ca1f4a3ef73a1a51112bca",
+        oauth_signature="PZtUSsT12s4rV4NeKw33XS0lYYg%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1605659759", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
         oauth_version="1.0"
       Connection:
       - close
@@ -34,29 +34,29 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 26 Sep 2018 20:13:31 GMT
+      - Wed, 18 Nov 2020 00:36:00 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 26 Sep 2018 20:13:31 GMT
+      - Wed, 18 Nov 2020 00:36:00 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A153799281107312262; Expires=Fri, 25 Sep 2020 20:13:31 GMT; Path=/;
-        Domain=.twitter.com
+      - guest_id=v1%3A160565976007043786; Max-Age=63072000; Expires=Fri, 18 Nov 2022
+        00:36:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=en; Path=/
-      - personalization_id="v1_v9sYFLcB63FhCVh5KSGAGg=="; Expires=Fri, 25 Sep 2020
-        20:13:31 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_eYXCbMCAeak/S/h7k+0pnw=="; Max-Age=63072000; Expires=Fri,
+        18 Nov 2022 00:36:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
       - max-age=631138519
       X-Access-Level:
-      - read-write
+      - read
       X-Connection-Hash:
-      - 1321448e182c2a41b95d421d4e3e826d
+      - 5a1d513f4b99c31d1b54b2222370bd03
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -64,17 +64,17 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '75'
       X-Rate-Limit-Remaining:
-      - '74'
+      - '67'
       X-Rate-Limit-Reset:
-      - '1537993711'
+      - '1605660643'
       X-Response-Time:
-      - '20'
+      - '21'
       X-Transaction:
-      - 005ec11b007f146c
+      - 00c4f1a6001f4513
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
+      - '0'
     body:
       encoding: UTF-8
       string: '[{"name":"Worldwide","placeType":{"code":19,"name":"Supername"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/1","parentid":0,"country":"","woeid":1,"countryCode":null},{"name":"Winnipeg","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/2972","parentid":23424775,"country":"Canada","woeid":2972,"countryCode":"CA"},{"name":"Ottawa","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/3369","parentid":23424775,"country":"Canada","woeid":3369,"countryCode":"CA"},{"name":"Quebec","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/3444","parentid":23424775,"country":"Canada","woeid":3444,"countryCode":"CA"},{"name":"Montreal","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/3534","parentid":23424775,"country":"Canada","woeid":3534,"countryCode":"CA"},{"name":"Toronto","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/4118","parentid":23424775,"country":"Canada","woeid":4118,"countryCode":"CA"},{"name":"Edmonton","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/8676","parentid":23424775,"country":"Canada","woeid":8676,"countryCode":"CA"},{"name":"Calgary","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/8775","parentid":23424775,"country":"Canada","woeid":8775,"countryCode":"CA"},{"name":"Vancouver","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/9807","parentid":23424775,"country":"Canada","woeid":9807,"countryCode":"CA"},{"name":"Birmingham","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/12723","parentid":23424975,"country":"United
@@ -230,21 +230,20 @@ http_interactions:
         States","woeid":23424977,"countryCode":"US"},{"name":"Venezuela","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424982","parentid":1,"country":"Venezuela","woeid":23424982,"countryCode":"VE"},{"name":"Vietnam","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424984","parentid":1,"country":"Vietnam","woeid":23424984,"countryCode":"VN"},{"name":"Petaling","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013632","parentid":23424901,"country":"Malaysia","woeid":56013632,"countryCode":"MY"},{"name":"Hulu
         Langat","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013645","parentid":23424901,"country":"Malaysia","woeid":56013645,"countryCode":"MY"},{"name":"Ahsa","placeType":{"code":9,"name":"Unknown"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56120136","parentid":23424938,"country":"Saudi
         Arabia","woeid":56120136,"countryCode":"SA"},{"name":"Okayama","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/90036018","parentid":23424856,"country":"Japan","woeid":90036018,"countryCode":"JP"}]'
-    http_version: 
-  recorded_at: Wed, 26 Sep 2018 20:13:31 GMT
+  recorded_at: Wed, 18 Nov 2020 00:36:00 GMT
 - request:
     method: get
-    uri: https://api.twitter.com/1.1/trends/place.json?id=1
+    uri: https://api.twitter.com/1.1/trends/place.json?id=2972
     body:
       encoding: UTF-8
       string: ''
     headers:
       User-Agent:
-      - TwitterRubyGem/6.2.0
+      - TwitterRubyGem/7.0.0
       Authorization:
-      - OAuth oauth_consumer_key="9Pro6TQu4AIkbPe8tBSgcL4y2", oauth_nonce="3bc54a93ae146832c14badd519a19bec",
-        oauth_signature="s%2B9UM05Cpa5mkJ%2FthzF6Wa6CNpA%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1537992811", oauth_token="1042791038446985218-ysli8LkXQojyScJzAjpq6LQZtDGotJ",
+      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="a6fea55f65acc53efec3baa2ae5e5325",
+        oauth_signature="No%2F03GjT9a2X8xTHKMDs55C61Yo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1605659760", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
         oauth_version="1.0"
       Connection:
       - close
@@ -262,33 +261,33 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '9539'
+      - '6007'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 26 Sep 2018 20:13:31 GMT
+      - Wed, 18 Nov 2020 00:36:00 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 26 Sep 2018 20:13:31 GMT
+      - Wed, 18 Nov 2020 00:36:00 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A153799281143578497; Expires=Fri, 25 Sep 2020 20:13:31 GMT; Path=/;
-        Domain=.twitter.com
+      - guest_id=v1%3A160565976029678738; Max-Age=63072000; Expires=Fri, 18 Nov 2022
+        00:36:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=en; Path=/
-      - personalization_id="v1_gBV8qtfK+3B8QnBHSAipUA=="; Expires=Fri, 25 Sep 2020
-        20:13:31 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_+HE9WJz+v6DAhmclDGxEEA=="; Max-Age=63072000; Expires=Fri,
+        18 Nov 2022 00:36:00 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
       - max-age=631138519
       X-Access-Level:
-      - read-write
+      - read
       X-Connection-Hash:
-      - 0d5780bc9412c37d9415d4e74abc548d
+      - c0510805f22d4c5d14818ae924fa0de9
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -296,32 +295,27 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '75'
       X-Rate-Limit-Remaining:
-      - '73'
+      - '69'
       X-Rate-Limit-Reset:
-      - '1537992887'
+      - '1605660643'
       X-Response-Time:
-      - '19'
+      - '38'
       X-Transaction:
-      - '0084175c00979e4b'
+      - 0014a92e00a6a1a1
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
-      - 1; mode=block; report=https://twitter.com/i/xss_report
+      - '0'
     body:
       encoding: UTF-8
-      string: '[{"trends":[{"name":"#\u0627\u0644\u0627\u062A\u062D\u0627\u062F_\u0627\u0644\u0648\u062D\u062F\u0647","url":"http:\/\/twitter.com\/search?q=%23%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D9%87","promoted_content":null,"query":"%23%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF_%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D9%87","tweet_volume":126761},{"name":"Legan\u00E9s","url":"http:\/\/twitter.com\/search?q=Legan%C3%A9s","promoted_content":null,"query":"Legan%C3%A9s","tweet_volume":42205},{"name":"#PAKvBAN","url":"http:\/\/twitter.com\/search?q=%23PAKvBAN","promoted_content":null,"query":"%23PAKvBAN","tweet_volume":86034},{"name":"#\u0628\u0631\u0634\u0644\u0648\u0646\u0647_\u0644\u064A\u063A\u0627\u0646\u064A\u0633","url":"http:\/\/twitter.com\/search?q=%23%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D9%87_%D9%84%D9%8A%D8%BA%D8%A7%D9%86%D9%8A%D8%B3","promoted_content":null,"query":"%23%D8%A8%D8%B1%D8%B4%D9%84%D9%88%D9%86%D9%87_%D9%84%D9%8A%D8%BA%D8%A7%D9%86%D9%8A%D8%B3","tweet_volume":14441},{"name":"#LIVCHE","url":"http:\/\/twitter.com\/search?q=%23LIVCHE","promoted_content":null,"query":"%23LIVCHE","tweet_volume":27294},{"name":"Tirei
-        1.000.000%","url":"http:\/\/twitter.com\/search?q=%22Tirei+1.000.000%25%22","promoted_content":null,"query":"%22Tirei+1.000.000%25%22","tweet_volume":null},{"name":"#VenezuelaAlzaSuVozEnLaONU","url":"http:\/\/twitter.com\/search?q=%23VenezuelaAlzaSuVozEnLaONU","promoted_content":null,"query":"%23VenezuelaAlzaSuVozEnLaONU","tweet_volume":104540},{"name":"Carlos
-        Bolsonaro","url":"http:\/\/twitter.com\/search?q=%22Carlos+Bolsonaro%22","promoted_content":null,"query":"%22Carlos+Bolsonaro%22","tweet_volume":11563},{"name":"El
-        Bar\u00E7a","url":"http:\/\/twitter.com\/search?q=%22El+Bar%C3%A7a%22","promoted_content":null,"query":"%22El+Bar%C3%A7a%22","tweet_volume":11607},{"name":"Julie
-        Swetnick","url":"http:\/\/twitter.com\/search?q=%22Julie+Swetnick%22","promoted_content":null,"query":"%22Julie+Swetnick%22","tweet_volume":293369},{"name":"Oculus
-        Quest","url":"http:\/\/twitter.com\/search?q=%22Oculus+Quest%22","promoted_content":null,"query":"%22Oculus+Quest%22","tweet_volume":null},{"name":"Vermaelen","url":"http:\/\/twitter.com\/search?q=Vermaelen","promoted_content":null,"query":"Vermaelen","tweet_volume":null},{"name":"Celia
-        Villalobos","url":"http:\/\/twitter.com\/search?q=%22Celia+Villalobos%22","promoted_content":null,"query":"%22Celia+Villalobos%22","tweet_volume":11155},{"name":"Cengiz
-        \u00DCnder","url":"http:\/\/twitter.com\/search?q=%22Cengiz+%C3%9Cnder%22","promoted_content":null,"query":"%22Cengiz+%C3%9Cnder%22","tweet_volume":null},{"name":"Fornals","url":"http:\/\/twitter.com\/search?q=Fornals","promoted_content":null,"query":"Fornals","tweet_volume":11301},{"name":"\u0637\u0627\u0631\u0642
-        \u0639\u0628\u062F\u0627\u0644\u0644\u0647","url":"http:\/\/twitter.com\/search?q=%22%D8%B7%D8%A7%D8%B1%D9%82+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87%22","promoted_content":null,"query":"%22%D8%B7%D8%A7%D8%B1%D9%82+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%84%D9%87%22","tweet_volume":null},{"name":"Jeff
-        Flake","url":"http:\/\/twitter.com\/search?q=%22Jeff+Flake%22","promoted_content":null,"query":"%22Jeff+Flake%22","tweet_volume":57860},{"name":"Keita","url":"http:\/\/twitter.com\/search?q=Keita","promoted_content":null,"query":"Keita","tweet_volume":13854},{"name":"Danny
-        Welbeck","url":"http:\/\/twitter.com\/search?q=%22Danny+Welbeck%22","promoted_content":null,"query":"%22Danny+Welbeck%22","tweet_volume":null},{"name":"Corey
-        Perry","url":"http:\/\/twitter.com\/search?q=%22Corey+Perry%22","promoted_content":null,"query":"%22Corey+Perry%22","tweet_volume":null},{"name":"Mary
-        Elizabeth Winstead","url":"http:\/\/twitter.com\/search?q=%22Mary+Elizabeth+Winstead%22","promoted_content":null,"query":"%22Mary+Elizabeth+Winstead%22","tweet_volume":null},{"name":"#ItaliaSerbia","url":"http:\/\/twitter.com\/search?q=%23ItaliaSerbia","promoted_content":null,"query":"%23ItaliaSerbia","tweet_volume":null},{"name":"#PSGSDR","url":"http:\/\/twitter.com\/search?q=%23PSGSDR","promoted_content":null,"query":"%23PSGSDR","tweet_volume":12576},{"name":"#JuveBologna","url":"http:\/\/twitter.com\/search?q=%23JuveBologna","promoted_content":null,"query":"%23JuveBologna","tweet_volume":15529},{"name":"#BVBFCN","url":"http:\/\/twitter.com\/search?q=%23BVBFCN","promoted_content":null,"query":"%23BVBFCN","tweet_volume":null},{"name":"#Ayotzinapa4A\u00F1os","url":"http:\/\/twitter.com\/search?q=%23Ayotzinapa4A%C3%B1os","promoted_content":null,"query":"%23Ayotzinapa4A%C3%B1os","tweet_volume":38296},{"name":"#Karde\u015FKur\u015Funu","url":"http:\/\/twitter.com\/search?q=%23Karde%C5%9FKur%C5%9Funu","promoted_content":null,"query":"%23Karde%C5%9FKur%C5%9Funu","tweet_volume":50775},{"name":"#OTDirecto26SEP","url":"http:\/\/twitter.com\/search?q=%23OTDirecto26SEP","promoted_content":null,"query":"%23OTDirecto26SEP","tweet_volume":80041},{"name":"#OMRCSA","url":"http:\/\/twitter.com\/search?q=%23OMRCSA","promoted_content":null,"query":"%23OMRCSA","tweet_volume":16907},{"name":"#NationalPancakeDay","url":"http:\/\/twitter.com\/search?q=%23NationalPancakeDay","promoted_content":null,"query":"%23NationalPancakeDay","tweet_volume":21076},{"name":"#ShareTogether","url":"http:\/\/twitter.com\/search?q=%23ShareTogether","promoted_content":null,"query":"%23ShareTogether","tweet_volume":19226},{"name":"#\u0635\u0627\u064A\u0631_\u0627\u0644\u062D\u0628_\u0628\u0627\u0644\u0648\u0642\u062A","url":"http:\/\/twitter.com\/search?q=%23%D8%B5%D8%A7%D9%8A%D8%B1_%D8%A7%D9%84%D8%AD%D8%A8_%D8%A8%D8%A7%D9%84%D9%88%D9%82%D8%AA","promoted_content":null,"query":"%23%D8%B5%D8%A7%D9%8A%D8%B1_%D8%A7%D9%84%D8%AD%D8%A8_%D8%A8%D8%A7%D9%84%D9%88%D9%82%D8%AA","tweet_volume":null},{"name":"#Creed2","url":"http:\/\/twitter.com\/search?q=%23Creed2","promoted_content":null,"query":"%23Creed2","tweet_volume":48794},{"name":"#chilhavisto","url":"http:\/\/twitter.com\/search?q=%23chilhavisto","promoted_content":null,"query":"%23chilhavisto","tweet_volume":null},{"name":"#HaddadAmarelou","url":"http:\/\/twitter.com\/search?q=%23HaddadAmarelou","promoted_content":null,"query":"%23HaddadAmarelou","tweet_volume":46854},{"name":"#RomaFrosinone","url":"http:\/\/twitter.com\/search?q=%23RomaFrosinone","promoted_content":null,"query":"%23RomaFrosinone","tweet_volume":null},{"name":"#BRDuell","url":"http:\/\/twitter.com\/search?q=%23BRDuell","promoted_content":null,"query":"%23BRDuell","tweet_volume":null},{"name":"#\u0644\u064A\u0641\u0631\u0628\u0648\u0644_\u062A\u0634\u064A\u0644\u0633\u064A","url":"http:\/\/twitter.com\/search?q=%23%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84_%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A","promoted_content":null,"query":"%23%D9%84%D9%8A%D9%81%D8%B1%D8%A8%D9%88%D9%84_%D8%AA%D8%B4%D9%8A%D9%84%D8%B3%D9%8A","tweet_volume":13739},{"name":"#\u0627\u0644\u063A\u0632\u0627\u0644_\u0627\u0644\u0634\u0627\u0631\u062F","url":"http:\/\/twitter.com\/search?q=%23%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84_%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D8%AF","promoted_content":null,"query":"%23%D8%A7%D9%84%D8%BA%D8%B2%D8%A7%D9%84_%D8%A7%D9%84%D8%B4%D8%A7%D8%B1%D8%AF","tweet_volume":null},{"name":"#NapoliParma","url":"http:\/\/twitter.com\/search?q=%23NapoliParma","promoted_content":null,"query":"%23NapoliParma","tweet_volume":null},{"name":"#\u0645\u062C\u0644\u0633_\u0627\u0644\u0634\u0648\u0631\u064A_\u064A\u0631\u0641\u0636_\u0627\u0644\u0627\u0646\u062D\u0644\u0627\u0644","url":"http:\/\/twitter.com\/search?q=%23%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%8A_%D9%8A%D8%B1%D9%81%D8%B6_%D8%A7%D9%84%D8%A7%D9%86%D8%AD%D9%84%D8%A7%D9%84","promoted_content":null,"query":"%23%D9%85%D8%AC%D9%84%D8%B3_%D8%A7%D9%84%D8%B4%D9%88%D8%B1%D9%8A_%D9%8A%D8%B1%D9%81%D8%B6_%D8%A7%D9%84%D8%A7%D9%86%D8%AD%D9%84%D8%A7%D9%84","tweet_volume":null},{"name":"#UdineseLazio","url":"http:\/\/twitter.com\/search?q=%23UdineseLazio","promoted_content":null,"query":"%23UdineseLazio","tweet_volume":null},{"name":"#NickiStoppedMyBag","url":"http:\/\/twitter.com\/search?q=%23NickiStoppedMyBag","promoted_content":null,"query":"%23NickiStoppedMyBag","tweet_volume":41796},{"name":"#\u0627\u0645\u0627\u0644\u0627","url":"http:\/\/twitter.com\/search?q=%23%D8%A7%D9%85%D8%A7%D9%84%D8%A7","promoted_content":null,"query":"%23%D8%A7%D9%85%D8%A7%D9%84%D8%A7","tweet_volume":null},{"name":"#DFCOOL","url":"http:\/\/twitter.com\/search?q=%23DFCOOL","promoted_content":null,"query":"%23DFCOOL","tweet_volume":null},{"name":"#BurgerQuiz","url":"http:\/\/twitter.com\/search?q=%23BurgerQuiz","promoted_content":null,"query":"%23BurgerQuiz","tweet_volume":null},{"name":"#\u0627\u0635\u0639\u0628_\u0634\u0639\u0648\u0631_\u0645\u0631_\u0639\u0644\u064A\u0643","url":"http:\/\/twitter.com\/search?q=%23%D8%A7%D8%B5%D8%B9%D8%A8_%D8%B4%D8%B9%D9%88%D8%B1_%D9%85%D8%B1_%D8%B9%D9%84%D9%8A%D9%83","promoted_content":null,"query":"%23%D8%A7%D8%B5%D8%B9%D8%A8_%D8%B4%D8%B9%D9%88%D8%B1_%D9%85%D8%B1_%D8%B9%D9%84%D9%8A%D9%83","tweet_volume":null},{"name":"#JKLive","url":"http:\/\/twitter.com\/search?q=%23JKLive","promoted_content":null,"query":"%23JKLive","tweet_volume":null},{"name":"#VoleiNoSporTV","url":"http:\/\/twitter.com\/search?q=%23VoleiNoSporTV","promoted_content":null,"query":"%23VoleiNoSporTV","tweet_volume":null},{"name":"#GHVIP26S","url":"http:\/\/twitter.com\/search?q=%23GHVIP26S","promoted_content":null,"query":"%23GHVIP26S","tweet_volume":32215}],"as_of":"2018-09-26T20:13:31Z","created_at":"2018-09-26T20:10:00Z","locations":[{"name":"Worldwide","woeid":1}]}]'
-    http_version: 
-  recorded_at: Wed, 26 Sep 2018 20:13:31 GMT
-recorded_with: VCR 4.0.0
+      string: '[{"trends":[{"name":"Fleets","url":"http:\/\/twitter.com\/search?q=Fleets","promoted_content":null,"query":"Fleets","tweet_volume":281494},{"name":"Elections
+        Canada","url":"http:\/\/twitter.com\/search?q=%22Elections+Canada%22","promoted_content":null,"query":"%22Elections+Canada%22","tweet_volume":12134},{"name":"#ARIAsHarryStyles","url":"http:\/\/twitter.com\/search?q=%23ARIAsHarryStyles","promoted_content":null,"query":"%23ARIAsHarryStyles","tweet_volume":304716},{"name":"Heinz","url":"http:\/\/twitter.com\/search?q=Heinz","promoted_content":null,"query":"Heinz","tweet_volume":null},{"name":"Snapchat","url":"http:\/\/twitter.com\/search?q=Snapchat","promoted_content":null,"query":"Snapchat","tweet_volume":182849},{"name":"Charlie
+        Kirk","url":"http:\/\/twitter.com\/search?q=%22Charlie+Kirk%22","promoted_content":null,"query":"%22Charlie+Kirk%22","tweet_volume":10107},{"name":"#Covid_19","url":"http:\/\/twitter.com\/search?q=%23Covid_19","promoted_content":null,"query":"%23Covid_19","tweet_volume":89882},{"name":"Stories","url":"http:\/\/twitter.com\/search?q=Stories","promoted_content":null,"query":"Stories","tweet_volume":801460},{"name":"karl
+        marx","url":"http:\/\/twitter.com\/search?q=%22karl+marx%22","promoted_content":null,"query":"%22karl+marx%22","tweet_volume":12040},{"name":"Scheer","url":"http:\/\/twitter.com\/search?q=Scheer","promoted_content":null,"query":"Scheer","tweet_volume":null},{"name":"Giuliani","url":"http:\/\/twitter.com\/search?q=Giuliani","promoted_content":null,"query":"Giuliani","tweet_volume":161358},{"name":"Charlie
+        Brown","url":"http:\/\/twitter.com\/search?q=%22Charlie+Brown%22","promoted_content":null,"query":"%22Charlie+Brown%22","tweet_volume":null},{"name":"Gordon
+        Lightfoot","url":"http:\/\/twitter.com\/search?q=%22Gordon+Lightfoot%22","promoted_content":null,"query":"%22Gordon+Lightfoot%22","tweet_volume":null},{"name":"Dolly","url":"http:\/\/twitter.com\/search?q=Dolly","promoted_content":null,"query":"Dolly","tweet_volume":129402},{"name":"Huawei","url":"http:\/\/twitter.com\/search?q=Huawei","promoted_content":null,"query":"Huawei","tweet_volume":25939},{"name":"#LindseyGrahamResign","url":"http:\/\/twitter.com\/search?q=%23LindseyGrahamResign","promoted_content":null,"query":"%23LindseyGrahamResign","tweet_volume":26290},{"name":"Steppenwolf","url":"http:\/\/twitter.com\/search?q=Steppenwolf","promoted_content":null,"query":"Steppenwolf","tweet_volume":null},{"name":"Colombia","url":"http:\/\/twitter.com\/search?q=Colombia","promoted_content":null,"query":"Colombia","tweet_volume":256657},{"name":"leamington","url":"http:\/\/twitter.com\/search?q=leamington","promoted_content":null,"query":"leamington","tweet_volume":null},{"name":"Spain","url":"http:\/\/twitter.com\/search?q=Spain","promoted_content":null,"query":"Spain","tweet_volume":85510},{"name":"Ted
+        Cruz","url":"http:\/\/twitter.com\/search?q=%22Ted+Cruz%22","promoted_content":null,"query":"%22Ted+Cruz%22","tweet_volume":68160},{"name":"Justice
+        League","url":"http:\/\/twitter.com\/search?q=%22Justice+League%22","promoted_content":null,"query":"%22Justice+League%22","tweet_volume":14940},{"name":"#BCStorm","url":"http:\/\/twitter.com\/search?q=%23BCStorm","promoted_content":null,"query":"%23BCStorm","tweet_volume":null},{"name":"Snyder","url":"http:\/\/twitter.com\/search?q=Snyder","promoted_content":null,"query":"Snyder","tweet_volume":37562},{"name":"Naadei","url":"http:\/\/twitter.com\/search?q=Naadei","promoted_content":null,"query":"Naadei","tweet_volume":null},{"name":"#WorldPrematurityDay","url":"http:\/\/twitter.com\/search?q=%23WorldPrematurityDay","promoted_content":null,"query":"%23WorldPrematurityDay","tweet_volume":null},{"name":"Zuckerberg","url":"http:\/\/twitter.com\/search?q=Zuckerberg","promoted_content":null,"query":"Zuckerberg","tweet_volume":164120},{"name":"Listerine","url":"http:\/\/twitter.com\/search?q=Listerine","promoted_content":null,"query":"Listerine","tweet_volume":null},{"name":"FIPA","url":"http:\/\/twitter.com\/search?q=FIPA","promoted_content":null,"query":"FIPA","tweet_volume":null},{"name":"Jerry","url":"http:\/\/twitter.com\/search?q=Jerry","promoted_content":null,"query":"Jerry","tweet_volume":62743},{"name":"LinkedIn","url":"http:\/\/twitter.com\/search?q=LinkedIn","promoted_content":null,"query":"LinkedIn","tweet_volume":100670},{"name":"Animal
+        Crossing","url":"http:\/\/twitter.com\/search?q=%22Animal+Crossing%22","promoted_content":null,"query":"%22Animal+Crossing%22","tweet_volume":54118},{"name":"O''Toole","url":"http:\/\/twitter.com\/search?q=O%27Toole","promoted_content":null,"query":"O%27Toole","tweet_volume":null},{"name":"Wayne","url":"http:\/\/twitter.com\/search?q=Wayne","promoted_content":null,"query":"Wayne","tweet_volume":146794},{"name":"Insta","url":"http:\/\/twitter.com\/search?q=Insta","promoted_content":null,"query":"Insta","tweet_volume":165055},{"name":"Rockets","url":"http:\/\/twitter.com\/search?q=Rockets","promoted_content":null,"query":"Rockets","tweet_volume":92728},{"name":"Afghanistan","url":"http:\/\/twitter.com\/search?q=Afghanistan","promoted_content":null,"query":"Afghanistan","tweet_volume":112162},{"name":"Parliament","url":"http:\/\/twitter.com\/search?q=Parliament","promoted_content":null,"query":"Parliament","tweet_volume":127267},{"name":"#StopTMX","url":"http:\/\/twitter.com\/search?q=%23StopTMX","promoted_content":null,"query":"%23StopTMX","tweet_volume":null},{"name":"#tuesdaymotivations","url":"http:\/\/twitter.com\/search?q=%23tuesdaymotivations","promoted_content":null,"query":"%23tuesdaymotivations","tweet_volume":41165},{"name":"#privacy","url":"http:\/\/twitter.com\/search?q=%23privacy","promoted_content":null,"query":"%23privacy","tweet_volume":null},{"name":"#ocsbKindness","url":"http:\/\/twitter.com\/search?q=%23ocsbKindness","promoted_content":null,"query":"%23ocsbKindness","tweet_volume":null}],"as_of":"2020-11-18T00:36:00Z","created_at":"2020-11-16T18:59:31Z","locations":[{"name":"Winnipeg","woeid":2972}]}]'
+  recorded_at: Wed, 18 Nov 2020 00:36:00 GMT
+recorded_with: VCR 6.0.0
