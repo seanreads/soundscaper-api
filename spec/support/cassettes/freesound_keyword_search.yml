@@ -21,24 +21,25 @@ http_interactions:
       Server:
       - nginx/1.14.2
       Date:
-      - Wed, 18 Nov 2020 00:35:58 GMT
+      - Wed, 13 Jan 2021 14:52:39 GMT
       Content-Type:
       - application/json
-      Content-Length:
-      - '3366'
+      Transfer-Encoding:
+      - chunked
       Vary:
       - Accept, Cookie
+      - Accept-Encoding
       Allow:
       - GET, HEAD, OPTIONS
       X-Freesound-Host:
-      - fs-appserver3
+      - fs-appserver2
       X-Mapped-Host:
       - freesound.org
       Referrer-Policy:
       - no-referrer-when-downgrade
     body:
-      encoding: UTF-8
-      string: '{"count":4079,"next":"http://freesound.org/apiv2/search/text/?&query=dog&page=2","results":[{"id":392617,"name":"Dog
+      encoding: ASCII-8BIT
+      string: '{"count":4147,"next":"http://freesound.org/apiv2/search/text/?&query=dog&page=2","results":[{"id":392617,"name":"Dog
         Toy","tags":["funny","play","toy","dog","whine","Dog","cat","animal","childs-toy","squeal"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"ScreamStudio"},{"id":327666,"name":"Dog
         Bark.wav","tags":["bellow","barking","intimidating","angrily","bark","aggressive","barked","growl","OWI","thunder","breaking","yap","woof","shout","snap","dogs","big","Dog","bawl","snarl","fierce","aggressively","yelp","roar","cry","dog","bay","yell"],"license":"http://creativecommons.org/licenses/by-nc/3.0/","username":"Juan_Merie_Venter"},{"id":518166,"name":"Dog
         walks on wooden floor","tags":["walking","floor","wooden","Dog","dog","steps"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Elenalostale"},{"id":337101,"name":"Group_of_Dogs_Barking.WAV","tags":["growling","growl","Group","barking","animal","pet","angry","Dog","dog","bark","anger","Bark","Dogs","pets"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"ivolipa"},{"id":518570,"name":"Barking
@@ -51,5 +52,5 @@ http_interactions:
         squeak toy","tags":["toy","squeaker","dog","ball","squeak","squeeze"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Jickle"},{"id":321179,"name":"Small
         growling dog","tags":["moan","growl","groan","dog","beast","miniature","animal","small","grunt","guttural"],"license":"http://creativecommons.org/licenses/by/3.0/","username":"Jickle"},{"id":180977,"name":"Barking
         Dog","tags":["bark","happy","loud","dog","barking"],"license":"http://creativecommons.org/publicdomain/zero/1.0/","username":"Suprasummun"}],"previous":null}'
-  recorded_at: Wed, 18 Nov 2020 00:35:58 GMT
+  recorded_at: Wed, 13 Jan 2021 14:52:39 GMT
 recorded_with: VCR 6.0.0
