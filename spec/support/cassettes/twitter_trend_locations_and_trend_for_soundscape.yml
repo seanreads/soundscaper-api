@@ -10,9 +10,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/7.0.0
       Authorization:
-      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="ef5e61165d1ad240c93a05cc54a00daf",
-        oauth_signature="Crr88t6%2BNH617MR6JnoiN59M8GE%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1610549560", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
+      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="0a645d07e08994d7bfad82a9011bf117",
+        oauth_signature="9raMMw4x3ZZKzuEiejw0sD1Oe5w%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1613501892", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
         oauth_version="1.0"
       Connection:
       - close
@@ -34,21 +34,21 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 13 Jan 2021 14:52:40 GMT
+      - Tue, 16 Feb 2021 18:58:12 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 13 Jan 2021 14:52:40 GMT
+      - Tue, 16 Feb 2021 18:58:12 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A161054956060178257; Max-Age=63072000; Expires=Fri, 13 Jan 2023
-        14:52:40 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A161350189242737228; Max-Age=63072000; Expires=Thu, 16 Feb 2023
+        18:58:12 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=en; Path=/
-      - personalization_id="v1_PZy96uMvuX+izxG5qRZDVA=="; Max-Age=63072000; Expires=Fri,
-        13 Jan 2023 14:52:40 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_Y9bogN9rUdiNtfy4I/VAUA=="; Max-Age=63072000; Expires=Thu,
+        16 Feb 2023 18:58:12 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -56,7 +56,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 1bbce0b03b1fb7e9c53c61b3c806202b
+      - b5b18beaf501c5c2b95255e314995059
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -66,11 +66,11 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '71'
       X-Rate-Limit-Reset:
-      - '1610550459'
+      - '1613502791'
       X-Response-Time:
-      - '18'
+      - '24'
       X-Transaction:
-      - 00a46f67003b5b85
+      - 00d9e51c00954bdc
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -230,7 +230,7 @@ http_interactions:
         States","woeid":23424977,"countryCode":"US"},{"name":"Venezuela","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424982","parentid":1,"country":"Venezuela","woeid":23424982,"countryCode":"VE"},{"name":"Vietnam","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424984","parentid":1,"country":"Vietnam","woeid":23424984,"countryCode":"VN"},{"name":"Petaling","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013632","parentid":23424901,"country":"Malaysia","woeid":56013632,"countryCode":"MY"},{"name":"Hulu
         Langat","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013645","parentid":23424901,"country":"Malaysia","woeid":56013645,"countryCode":"MY"},{"name":"Ahsa","placeType":{"code":9,"name":"Unknown"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56120136","parentid":23424938,"country":"Saudi
         Arabia","woeid":56120136,"countryCode":"SA"},{"name":"Okayama","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/90036018","parentid":23424856,"country":"Japan","woeid":90036018,"countryCode":"JP"}]'
-  recorded_at: Wed, 13 Jan 2021 14:52:40 GMT
+  recorded_at: Tue, 16 Feb 2021 18:58:12 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1/trends/place.json?id=2972
@@ -241,9 +241,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/7.0.0
       Authorization:
-      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="bb3aa297c8fef582a086f434013a777b",
-        oauth_signature="kA6pDVK0hTm5uqojJxSGXbdknJM%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1610549560", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
+      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="e4a238462f9566cbad4e5f37f18b7540",
+        oauth_signature="EpRvd7kyoXUJrEfjSKf2cXTEwO8%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1613501892", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
         oauth_version="1.0"
       Connection:
       - close
@@ -261,25 +261,25 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '7117'
+      - '5454'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 13 Jan 2021 14:52:40 GMT
+      - Tue, 16 Feb 2021 18:58:12 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 13 Jan 2021 14:52:40 GMT
+      - Tue, 16 Feb 2021 18:58:12 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A161054956080215670; Max-Age=63072000; Expires=Fri, 13 Jan 2023
-        14:52:40 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A161350189263460287; Max-Age=63072000; Expires=Thu, 16 Feb 2023
+        18:58:12 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=en; Path=/
-      - personalization_id="v1_iN7Hr+oavju2IxNuiJb3Bg=="; Max-Age=63072000; Expires=Fri,
-        13 Jan 2023 14:52:40 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_nK0W78sYizSCN1pbyDhgCA=="; Max-Age=63072000; Expires=Thu,
+        16 Feb 2023 18:58:12 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -287,7 +287,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 40484c93e0f3fe5c293292ef7621e897
+      - 6232d844aa816f9ccee5dc225a1caf9f
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -297,39 +297,28 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '72'
       X-Rate-Limit-Reset:
-      - '1610550460'
+      - '1613502791'
       X-Response-Time:
-      - '29'
+      - '37'
       X-Transaction:
-      - 001f742f002f16cc
+      - '00581e8b00a48e7b'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
       - '0'
     body:
       encoding: UTF-8
-      string: '[{"trends":[{"name":"#LeafsForever","url":"http:\/\/twitter.com\/search?q=%23LeafsForever","promoted_content":null,"query":"%23LeafsForever","tweet_volume":null},{"name":"#ImpeachmentDay","url":"http:\/\/twitter.com\/search?q=%23ImpeachmentDay","promoted_content":null,"query":"%23ImpeachmentDay","tweet_volume":19603},{"name":"#GoHabsGo","url":"http:\/\/twitter.com\/search?q=%23GoHabsGo","promoted_content":null,"query":"%23GoHabsGo","tweet_volume":null},{"name":"GAME
-        DAY","url":"http:\/\/twitter.com\/search?q=%22GAME+DAY%22","promoted_content":null,"query":"%22GAME+DAY%22","tweet_volume":30689},{"name":"Ubisoft","url":"http:\/\/twitter.com\/search?q=Ubisoft","promoted_content":null,"query":"Ubisoft","tweet_volume":41137},{"name":"Tom
-        Cole","url":"http:\/\/twitter.com\/search?q=%22Tom+Cole%22","promoted_content":null,"query":"%22Tom+Cole%22","tweet_volume":null},{"name":"#wednesdaythought","url":"http:\/\/twitter.com\/search?q=%23wednesdaythought","promoted_content":null,"query":"%23wednesdaythought","tweet_volume":26207},{"name":"#LetsGoOilers","url":"http:\/\/twitter.com\/search?q=%23LetsGoOilers","promoted_content":null,"query":"%23LetsGoOilers","tweet_volume":null},{"name":"The
-        Division","url":"http:\/\/twitter.com\/search?q=%22The+Division%22","promoted_content":null,"query":"%22The+Division%22","tweet_volume":77550},{"name":"HOCKEY
-        IS BACK","url":"http:\/\/twitter.com\/search?q=%22HOCKEY+IS+BACK%22","promoted_content":null,"query":"%22HOCKEY+IS+BACK%22","tweet_volume":null},{"name":"Star
-        Wars","url":"http:\/\/twitter.com\/search?q=%22Star+Wars%22","promoted_content":null,"query":"%22Star+Wars%22","tweet_volume":51115},{"name":"Blair","url":"http:\/\/twitter.com\/search?q=Blair","promoted_content":null,"query":"Blair","tweet_volume":18500},{"name":"Piers
-        Morgan","url":"http:\/\/twitter.com\/search?q=%22Piers+Morgan%22","promoted_content":null,"query":"%22Piers+Morgan%22","tweet_volume":27667},{"name":"Good
-        Wednesday","url":"http:\/\/twitter.com\/search?q=%22Good+Wednesday%22","promoted_content":null,"query":"%22Good+Wednesday%22","tweet_volume":14477},{"name":"Katy
-        Perry","url":"http:\/\/twitter.com\/search?q=%22Katy+Perry%22","promoted_content":null,"query":"%22Katy+Perry%22","tweet_volume":13902},{"name":"Assassin''s
-        Creed","url":"http:\/\/twitter.com\/search?q=%22Assassin%27s+Creed%22","promoted_content":null,"query":"%22Assassin%27s+Creed%22","tweet_volume":null},{"name":"Carrefour","url":"http:\/\/twitter.com\/search?q=Carrefour","promoted_content":null,"query":"Carrefour","tweet_volume":13306},{"name":"Rebecca
-        Marino","url":"http:\/\/twitter.com\/search?q=%22Rebecca+Marino%22","promoted_content":null,"query":"%22Rebecca+Marino%22","tweet_volume":null},{"name":"sandi","url":"http:\/\/twitter.com\/search?q=sandi","promoted_content":null,"query":"sandi","tweet_volume":null},{"name":"The
-        NHL","url":"http:\/\/twitter.com\/search?q=%22The+NHL%22","promoted_content":null,"query":"%22The+NHL%22","tweet_volume":25221},{"name":"Lisa
-        Montgomery","url":"http:\/\/twitter.com\/search?q=%22Lisa+Montgomery%22","promoted_content":null,"query":"%22Lisa+Montgomery%22","tweet_volume":48523},{"name":"Trump
-        Organization","url":"http:\/\/twitter.com\/search?q=%22Trump+Organization%22","promoted_content":null,"query":"%22Trump+Organization%22","tweet_volume":36937},{"name":"les
-        qu\u00E9b\u00E9cois","url":"http:\/\/twitter.com\/search?q=%22les+qu%C3%A9b%C3%A9cois%22","promoted_content":null,"query":"%22les+qu%C3%A9b%C3%A9cois%22","tweet_volume":null},{"name":"Happy
-        Lohri","url":"http:\/\/twitter.com\/search?q=%22Happy+Lohri%22","promoted_content":null,"query":"%22Happy+Lohri%22","tweet_volume":90129},{"name":"Geraldo","url":"http:\/\/twitter.com\/search?q=Geraldo","promoted_content":null,"query":"Geraldo","tweet_volume":31543},{"name":"Bruins","url":"http:\/\/twitter.com\/search?q=Bruins","promoted_content":null,"query":"Bruins","tweet_volume":null},{"name":"Corb
-        Lund","url":"http:\/\/twitter.com\/search?q=%22Corb+Lund%22","promoted_content":null,"query":"%22Corb+Lund%22","tweet_volume":null},{"name":"Uganda","url":"http:\/\/twitter.com\/search?q=Uganda","promoted_content":null,"query":"Uganda","tweet_volume":257638},{"name":"Couche-Tard","url":"http:\/\/twitter.com\/search?q=Couche-Tard","promoted_content":null,"query":"Couche-Tard","tweet_volume":null},{"name":"Huawei","url":"http:\/\/twitter.com\/search?q=Huawei","promoted_content":null,"query":"Huawei","tweet_volume":18951},{"name":"Essential","url":"http:\/\/twitter.com\/search?q=Essential","promoted_content":null,"query":"Essential","tweet_volume":103202},{"name":"Lucasfilm","url":"http:\/\/twitter.com\/search?q=Lucasfilm","promoted_content":null,"query":"Lucasfilm","tweet_volume":17798},{"name":"Rosalie
-        Vaillancourt","url":"http:\/\/twitter.com\/search?q=%22Rosalie+Vaillancourt%22","promoted_content":null,"query":"%22Rosalie+Vaillancourt%22","tweet_volume":null},{"name":"Stanley
-        Cup","url":"http:\/\/twitter.com\/search?q=%22Stanley+Cup%22","promoted_content":null,"query":"%22Stanley+Cup%22","tweet_volume":null},{"name":"travis
-        scott","url":"http:\/\/twitter.com\/search?q=%22travis+scott%22","promoted_content":null,"query":"%22travis+scott%22","tweet_volume":11066},{"name":"Pokemon","url":"http:\/\/twitter.com\/search?q=Pokemon","promoted_content":null,"query":"Pokemon","tweet_volume":101974},{"name":"Anderson","url":"http:\/\/twitter.com\/search?q=Anderson","promoted_content":null,"query":"Anderson","tweet_volume":25779},{"name":"Gosar","url":"http:\/\/twitter.com\/search?q=Gosar","promoted_content":null,"query":"Gosar","tweet_volume":118648},{"name":"Hezbollah","url":"http:\/\/twitter.com\/search?q=Hezbollah","promoted_content":null,"query":"Hezbollah","tweet_volume":null},{"name":"Australian
-        Open","url":"http:\/\/twitter.com\/search?q=%22Australian+Open%22","promoted_content":null,"query":"%22Australian+Open%22","tweet_volume":null},{"name":"Dershowitz","url":"http:\/\/twitter.com\/search?q=Dershowitz","promoted_content":null,"query":"Dershowitz","tweet_volume":null},{"name":"Carlo","url":"http:\/\/twitter.com\/search?q=Carlo","promoted_content":null,"query":"Carlo","tweet_volume":12209},{"name":"Flyers","url":"http:\/\/twitter.com\/search?q=Flyers","promoted_content":null,"query":"Flyers","tweet_volume":12650},{"name":"PTSD","url":"http:\/\/twitter.com\/search?q=PTSD","promoted_content":null,"query":"PTSD","tweet_volume":18979},{"name":"John
-        Wall","url":"http:\/\/twitter.com\/search?q=%22John+Wall%22","promoted_content":null,"query":"%22John+Wall%22","tweet_volume":12728},{"name":"environment
-        canada","url":"http:\/\/twitter.com\/search?q=%22environment+canada%22","promoted_content":null,"query":"%22environment+canada%22","tweet_volume":null},{"name":"Belgium","url":"http:\/\/twitter.com\/search?q=Belgium","promoted_content":null,"query":"Belgium","tweet_volume":null},{"name":"F\u00E9licitations","url":"http:\/\/twitter.com\/search?q=F%C3%A9licitations","promoted_content":null,"query":"F%C3%A9licitations","tweet_volume":null}],"as_of":"2021-01-13T14:52:40Z","created_at":"2021-01-06T05:03:38Z","locations":[{"name":"Winnipeg","woeid":2972}]}]'
-  recorded_at: Wed, 13 Jan 2021 14:52:40 GMT
+      string: '[{"trends":[{"name":"#GoJetsGo","url":"http:\/\/twitter.com\/search?q=%23GoJetsGo","promoted_content":null,"query":"%23GoJetsGo","tweet_volume":null},{"name":"Texas","url":"http:\/\/twitter.com\/search?q=Texas","promoted_content":null,"query":"Texas","tweet_volume":1000424},{"name":"Nintendo
+        Direct","url":"http:\/\/twitter.com\/search?q=%22Nintendo+Direct%22","promoted_content":null,"query":"%22Nintendo+Direct%22","tweet_volume":110496},{"name":"#ShroveTuesday","url":"http:\/\/twitter.com\/search?q=%23ShroveTuesday","promoted_content":null,"query":"%23ShroveTuesday","tweet_volume":14877},{"name":"#tuesdayvibe","url":"http:\/\/twitter.com\/search?q=%23tuesdayvibe","promoted_content":null,"query":"%23tuesdayvibe","tweet_volume":24340},{"name":"#PancakeTuesday","url":"http:\/\/twitter.com\/search?q=%23PancakeTuesday","promoted_content":null,"query":"%23PancakeTuesday","tweet_volume":null},{"name":"#PaidSickDaysSaveLives","url":"http:\/\/twitter.com\/search?q=%23PaidSickDaysSaveLives","promoted_content":null,"query":"%23PaidSickDaysSaveLives","tweet_volume":null},{"name":"Smash","url":"http:\/\/twitter.com\/search?q=Smash","promoted_content":null,"query":"Smash","tweet_volume":83363},{"name":"Lent","url":"http:\/\/twitter.com\/search?q=Lent","promoted_content":null,"query":"Lent","tweet_volume":34821},{"name":"corey","url":"http:\/\/twitter.com\/search?q=corey","promoted_content":null,"query":"corey","tweet_volume":14124},{"name":"LastPass","url":"http:\/\/twitter.com\/search?q=LastPass","promoted_content":null,"query":"LastPass","tweet_volume":null},{"name":"Cruella","url":"http:\/\/twitter.com\/search?q=Cruella","promoted_content":null,"query":"Cruella","tweet_volume":25085},{"name":"BOTW
+        2","url":"http:\/\/twitter.com\/search?q=%22BOTW+2%22","promoted_content":null,"query":"%22BOTW+2%22","tweet_volume":null},{"name":"Mardi
+        Gras","url":"http:\/\/twitter.com\/search?q=%22Mardi+Gras%22","promoted_content":null,"query":"%22Mardi+Gras%22","tweet_volume":39691},{"name":"Fat
+        Tuesday","url":"http:\/\/twitter.com\/search?q=%22Fat+Tuesday%22","promoted_content":null,"query":"%22Fat+Tuesday%22","tweet_volume":11000},{"name":"Zelda","url":"http:\/\/twitter.com\/search?q=Zelda","promoted_content":null,"query":"Zelda","tweet_volume":35388},{"name":"The
+        Last Jedi","url":"http:\/\/twitter.com\/search?q=%22The+Last+Jedi%22","promoted_content":null,"query":"%22The+Last+Jedi%22","tweet_volume":null},{"name":"Dante","url":"http:\/\/twitter.com\/search?q=Dante","promoted_content":null,"query":"Dante","tweet_volume":22211},{"name":"Coyotes","url":"http:\/\/twitter.com\/search?q=Coyotes","promoted_content":null,"query":"Coyotes","tweet_volume":null},{"name":"Ash
+        Wednesday","url":"http:\/\/twitter.com\/search?q=%22Ash+Wednesday%22","promoted_content":null,"query":"%22Ash+Wednesday%22","tweet_volume":null},{"name":"Blair","url":"http:\/\/twitter.com\/search?q=Blair","promoted_content":null,"query":"Blair","tweet_volume":18905},{"name":"Draymond","url":"http:\/\/twitter.com\/search?q=Draymond","promoted_content":null,"query":"Draymond","tweet_volume":63041},{"name":"Mother
+        Nature","url":"http:\/\/twitter.com\/search?q=%22Mother+Nature%22","promoted_content":null,"query":"%22Mother+Nature%22","tweet_volume":21672},{"name":"New
+        Orleans","url":"http:\/\/twitter.com\/search?q=%22New+Orleans%22","promoted_content":null,"query":"%22New+Orleans%22","tweet_volume":15189},{"name":"Adam
+        Silver","url":"http:\/\/twitter.com\/search?q=%22Adam+Silver%22","promoted_content":null,"query":"%22Adam+Silver%22","tweet_volume":null},{"name":"Raymond
+        L\u00E9vesque","url":"http:\/\/twitter.com\/search?q=%22Raymond+L%C3%A9vesque%22","promoted_content":null,"query":"%22Raymond+L%C3%A9vesque%22","tweet_volume":null},{"name":"Houston","url":"http:\/\/twitter.com\/search?q=Houston","promoted_content":null,"query":"Houston","tweet_volume":117146},{"name":"Reilly","url":"http:\/\/twitter.com\/search?q=Reilly","promoted_content":null,"query":"Reilly","tweet_volume":null},{"name":"Ontario
+        Canada","url":"http:\/\/twitter.com\/search?q=%22Ontario+Canada%22","promoted_content":null,"query":"%22Ontario+Canada%22","tweet_volume":null},{"name":"Gates","url":"http:\/\/twitter.com\/search?q=Gates","promoted_content":null,"query":"Gates","tweet_volume":98021},{"name":"#SnowDay","url":"http:\/\/twitter.com\/search?q=%23SnowDay","promoted_content":null,"query":"%23SnowDay","tweet_volume":null},{"name":"#PancakeDay","url":"http:\/\/twitter.com\/search?q=%23PancakeDay","promoted_content":null,"query":"%23PancakeDay","tweet_volume":44051},{"name":"#ONStorm","url":"http:\/\/twitter.com\/search?q=%23ONStorm","promoted_content":null,"query":"%23ONStorm","tweet_volume":null},{"name":"#TriviaTuesday","url":"http:\/\/twitter.com\/search?q=%23TriviaTuesday","promoted_content":null,"query":"%23TriviaTuesday","tweet_volume":null},{"name":"#prioritizefamilysponsorship","url":"http:\/\/twitter.com\/search?q=%23prioritizefamilysponsorship","promoted_content":null,"query":"%23prioritizefamilysponsorship","tweet_volume":null},{"name":"#IReadCanadianDay","url":"http:\/\/twitter.com\/search?q=%23IReadCanadianDay","promoted_content":null,"query":"%23IReadCanadianDay","tweet_volume":null},{"name":"#TEAMMOLLY","url":"http:\/\/twitter.com\/search?q=%23TEAMMOLLY","promoted_content":null,"query":"%23TEAMMOLLY","tweet_volume":null}],"as_of":"2021-02-16T18:58:12Z","created_at":"2021-02-14T16:31:54Z","locations":[{"name":"Winnipeg","woeid":2972}]}]'
+  recorded_at: Tue, 16 Feb 2021 18:58:12 GMT
 recorded_with: VCR 6.0.0

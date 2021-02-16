@@ -10,9 +10,9 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/7.0.0
       Authorization:
-      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="d8b4f8e5188fbe28970b9a602f601dcb",
-        oauth_signature="cCPh%2FYALXeOcKd9yPd95x6lPXSM%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1610549559", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
+      - OAuth oauth_consumer_key="UvbYeipWzexYYM0hk3PY0zLcd", oauth_nonce="a7b04bd66c0b15fd807e9831a62def23",
+        oauth_signature="4Sy7FN5l4YkgfkT3dii2WSTrFV0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1613501890", oauth_token="1328307224788279296-hIf8EaXXhX1nDh0hCuAPhSvR62hlQV",
         oauth_version="1.0"
       Connection:
       - close
@@ -34,21 +34,21 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 13 Jan 2021 14:52:39 GMT
+      - Tue, 16 Feb 2021 18:58:11 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 13 Jan 2021 14:52:39 GMT
+      - Tue, 16 Feb 2021 18:58:11 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_b
       Set-Cookie:
-      - guest_id=v1%3A161054955964254307; Max-Age=63072000; Expires=Fri, 13 Jan 2023
-        14:52:39 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A161350189116962489; Max-Age=63072000; Expires=Thu, 16 Feb 2023
+        18:58:11 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=en; Path=/
-      - personalization_id="v1_I6+wJH0mibgQWJ9RF79Lmg=="; Max-Age=63072000; Expires=Fri,
-        13 Jan 2023 14:52:39 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_m8/DAElvVRTCreGd7p1ngA=="; Max-Age=63072000; Expires=Thu,
+        16 Feb 2023 18:58:11 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -56,7 +56,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - ef5121da56ad983724329d59bc97071f
+      - c74adb8daa31242c9b003202d0407d1b
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -66,11 +66,11 @@ http_interactions:
       X-Rate-Limit-Remaining:
       - '74'
       X-Rate-Limit-Reset:
-      - '1610550459'
+      - '1613502791'
       X-Response-Time:
       - '24'
       X-Transaction:
-      - 002b983b00b1b8f5
+      - 007523f4000afd06
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -230,5 +230,5 @@ http_interactions:
         States","woeid":23424977,"countryCode":"US"},{"name":"Venezuela","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424982","parentid":1,"country":"Venezuela","woeid":23424982,"countryCode":"VE"},{"name":"Vietnam","placeType":{"code":12,"name":"Country"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/23424984","parentid":1,"country":"Vietnam","woeid":23424984,"countryCode":"VN"},{"name":"Petaling","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013632","parentid":23424901,"country":"Malaysia","woeid":56013632,"countryCode":"MY"},{"name":"Hulu
         Langat","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56013645","parentid":23424901,"country":"Malaysia","woeid":56013645,"countryCode":"MY"},{"name":"Ahsa","placeType":{"code":9,"name":"Unknown"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/56120136","parentid":23424938,"country":"Saudi
         Arabia","woeid":56120136,"countryCode":"SA"},{"name":"Okayama","placeType":{"code":7,"name":"Town"},"url":"http:\/\/where.yahooapis.com\/v1\/place\/90036018","parentid":23424856,"country":"Japan","woeid":90036018,"countryCode":"JP"}]'
-  recorded_at: Wed, 13 Jan 2021 14:52:39 GMT
+  recorded_at: Tue, 16 Feb 2021 18:58:11 GMT
 recorded_with: VCR 6.0.0
